@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "usda"
+version = "0.0.1"
+authors = [
+  { name="Example Author", email="author@example.com" },
+]
+description = "A USDA APIs endpoints handler"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.9"
+classifiers = [
+    "Python Package :: USDA :: 0.0.1",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = [
+    "pandas==1.4.3",
+    "requests==2.28.1",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/akkagazizov/usda-package"
