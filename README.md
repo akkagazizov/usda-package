@@ -4,7 +4,7 @@ A small python package called USDA, which provides some functions that help you 
 
 ### Proof of concept API handler
 <p align="center" width="100%">
-    <img width="60%" src="docs/USDA_Diagram.jpg"> 
+    <img width="60%" src="https://github.com/akkagazizov/usda-package/blob/main/docs/USDA_Diagram.jpg"> 
 </p>
 
 ## Prerequisites:
