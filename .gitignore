@@ -129,3 +129,4 @@ dmypy.json
 .pyre/
 *.txt
 *.csv
+my_example.py

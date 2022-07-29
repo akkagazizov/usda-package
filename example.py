@@ -1,36 +1,43 @@
-from src.usda.api.services import FASService, MARSService, NASSService
-from src.usda.api.services._base import ServiceBase
+from src.usda.api.services import NASSService, MARSService, FASService
+from pathlib import Path
+
+ROOT_DIR_PATH = Path(__name__).absolute().parent
 
 SETTINGS = {
     "fas": {
-        "api_key": "jhk234nkj34jh5987812mn",
-        "url": "https://www.fas.usda.gov",
+        "api_key": "api_key",
+        "url": "https://apps.fas.usda.gov/OpenData/swagger/docs/v1",
     },
     "mars": {
-        "api_key": "jhk234nkj34jh5987812mn",
-        "url": "https://mymarketnews.ams.usda.gov",
+        "api_key": "api_key",
+        "url": "https://marsapi.ams.usda.gov/services/v1.2",
     },
     "nass": {
-        "api_key": "jhk234nkj34jh5987812mn",
-        "url": "https://www.nass.usda.gov",
+        "api_key": "api_key",
+        "url": "http://quickstats.nass.usda.gov/api",
     },
 }
 
 
 def main() -> None:
-    fas = FASService(api_key=SETTINGS["fas"]["api_key"], url=SETTINGS["fas"]["url"])
-    nass = NASSService(api_key=SETTINGS["nass"]["api_key"], url=SETTINGS["nass"]["url"])
-    mars = MARSService(api_key=SETTINGS["mars"]["api_key"], url=SETTINGS["mars"]["url"])
-    
-    all_services: list[ServiceBase] = [fas, nass, mars]
-    
-    for service in all_services:
-        print(service.get())
-        df = service.dataframe()
-        print(df.head())
-        service.to_file(f"C:\\Users\\eldar.gazizov\\Desktop\\usda-package", df)
-        print("======================")
+    nass = NASSService(SETTINGS["nass"]["api_key"])
+    fas = FASService(SETTINGS["fas"]["api_key"])
+    mars = MARSService(SETTINGS["mars"]["api_key"])
 
+    stat_fas = fas.get(endpoint='/gats/countries')
+    stat_mars = mars.get(endpoint=mars.EndpointAPI.GET_REPORTS)
+    stat_nass = nass.get(endpoints=nass.EndpointAPI.GET_API, params={"commodity_desc":"CORN",
+                                                                     "year__GE": "2012",
+                                                                     "state_alpha":"VA"})
+
+    for service, name, stat in zip([nass, fas, mars], ['NASS', 'FAS', 'MARS'], [stat_nass, stat_fas, stat_mars]):
+        print(f"==========={name}===========")
+        print(f"status code: {stat}")
+        print(f"url: {service.url}")
+        path = service.to_file(ROOT_DIR_PATH)
+        print(f"See: {path}")
+        print("==========================")
+ 
 
 if __name__ == "__main__":
     main()
