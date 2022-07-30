@@ -4,11 +4,11 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "usda"
-version = "0.0.2"
+version = "0.0.3"
 authors = [
   { name="Eldar Gazizov", email="kursus1010@gmail.com" },
 ]
-description = "A USDA APIs endpoints handler"
+description = "A USDA APIs handler"
 readme = "README.md"
 license = { file="LICENSE" }
 requires-python = ">=3.9"

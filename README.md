@@ -1,25 +1,32 @@
 # USDA Python Package
-## A USDA APIs endpoints handler
+
+## A USDA APIs handler
+
 A small python package called USDA, which provides some functions that help you fast receive information from Foreign Agricultural Service (FAS), Agricultural Marketing Service (MARS), and National Agricultural Statistics Service (NASS), and then manipulate with them (sorting, filtering, cleaning and etc). In the future, this package will be extended. There will be a new feature such as Predicting and etc.
 
 ### Proof of concept API handler
+
 <p align="center" width="100%">
     <img width="60%" src="https://github.com/akkagazizov/usda-package/blob/main/docs/USDA_Diagram.jpg"> 
 </p>
 
 ## Prerequisites:
+
 - Python 3.9+
 - pipenv install
 
 ## TODOs
+
 - Data manipulating (filter, sorting, etc)
-- Store and accumulate data in time
-- Predict 
+- Store data in a CSV file
+- Predict
 
 ## Command build python package
+
 - python -m build
 
 ## Example
+
 ```
 from src.usda.api.services import NASSService, MARSService, FASService
 from pathlib import Path
@@ -61,5 +68,3 @@ def main() -> None:
         print(f"See: {path}")
         print("==========================")
 ```
-
-<!-- ![USDA Diagram](./docs/USDA_Diagram.jpg) -->
