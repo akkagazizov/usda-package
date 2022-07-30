@@ -1,0 +1,321 @@
+countryCode,regionCode,countryParentCode,countryName,description,isO3Code,discontinuedOn,gencCode
+01,R99,01,"Caribbean,nes",,X21,,
+02,R99,02,"Eastern Europe,nes",,X22,,
+03,R99,03,"Northern Africa,nes",,X23,,
+04,R99,04,"Central American Common Market, NES",,X24,,
+05,R99,05,Latin American Integration Association,,X25,,
+06,R99,06,"Oceania, not elsewhere specified",,X27,,
+07,R99,07,"Europe, not elsewhere specified",,X28,,
+08,R99,08,"Americas, not elsewhere specified",,X29,,
+09,R99,09,"North and Central America, NES",,X30,,
+10,R99,10,Bunkers,,X31,,
+11,R99,11,Free Zones,,X32,,
+12,R99,12,Special Categories,,X33,,
+13,R99,13,US Miscellaneous Pacific Islands,,X34,,
+14,R99,14,"Western Asia,not elsewhere specified",,X35,,
+15,R99,15,"Areas, not elsewhere specified",,X36,,
+16,R99,16,Southern African Customs Union,,X37,,
+17,R99,17,"European Free Trade Association,nes",,X02,,
+18,R99,18,ASEAN,,   ,,
+AE,R45,AE,United Arab Emirates,,ARE,,ARE
+AF,R60,AF,Afghanistan,,AFG,,AFG
+AG,R50,AG,Algeria,,DZA,,DZA
+AJ,R35,AJ,Azerbaijan,,AZE,,AZE
+AL,R30,AL,Albania,,ALB,,ALB
+AM,R35,AM,Armenia,,ARM,,ARM
+AO,R55,AO,Angola,,AGO,,AGO
+AQ,R70,AQ,American Samoa,,ASM,,ASM
+AR,R20,AR,Argentina,,ARG,,ARG
+AS,R70,AS,Australia,,AUS,198712,
+A2,R70,AS,Australia,,AUS,,AUS
+CK,R70,AS,Cocos (Keeling) Islands,,CCK,,CCK
+HM,R70,AS,Heard Island and McDonald Islands,,HMD,,HMD
+KT,R70,AS,Christmas Island,,CXR,,CXR
+NF,R70,AS,Norfolk Island,,NFK,,NFK
+AU,R25,AU,Austria,,AUT,,AUT
+AY,R99,AY,Antarctica,,ATA,,ATA
+BA,R45,BA,Bahrain,,BHR,,BHR
+BB,R10,BB,Barbados,,BRB,,BRB
+BC,R55,BC,Botswana,,BWA,,BWA
+BD,R10,BD,Bermuda,,BMU,,BMU
+BE,R25,BE,Belgium-Luxembourg,,XBL,198801,
+LU,R25,BE,Luxembourg,,LUX,,LUX
+B1,R25,BE,Belgium,,BEL,,BEL
+BF,R10,BF,"Bahamas, The",,BHS,,BHS
+BG,R60,BG,Bangladesh,,BGD,,BGD
+BH,R15,BH,Belize,,BLZ,,BLZ
+BK,R30,BK,Bosnia and Herzegovina,,BIH,,BIH
+BL,R20,BL,Bolivia,,BOL,,BOL
+BM,R65,BM,Burma,,MMR,,MMR
+BN,R55,BN,Benin,,BEN,,BEN
+BO,R35,BO,Belarus,,BLR,,BLR
+BR,R20,BR,Brazil,,BRA,,BRA
+BU,R25,BU,Bulgaria,,BGR,,BGR
+BV,R99,BV,Bouvet Island,,BVT,,BVT
+BX,R65,BX,Brunei,,BRN,,BRN
+BY,R55,BY,Burundi,,BDI,,BDI
+CA,R05,CA,Canada,,CAN,,CAN
+CB,R65,CB,Cambodia,,KHM,,KHM
+CD,R55,CD,Chad,,TCD,,TCD
+CE,R60,CE,Sri Lanka,,LKA,,LKA
+CF,R55,CF,Congo (Brazzaville),,COG,,COG
+CG,R55,CG,Congo (Kinshasa),,COD,,COD
+CH,R40,CH,China,,CHN,,CHN
+CI,R20,CI,Chile,,CHL,,CHL
+CJ,R10,CJ,Cayman Islands,,CYM,,CYM
+CM,R55,CM,Cameroon,,CMR,,CMR
+CN,R55,CN,Comoros,,COM,,COM
+CO,R20,CO,Colombia,,COL,,COL
+CQ,R70,CQ,Northern Mariana Islands,,MNP,,MNP
+CS,R15,CS,Costa Rica,,CRI,,CRI
+CT,R55,CT,Central African Republic,,CAF,,CAF
+CU,R10,CU,Cuba,,CUB,,CUB
+CY,R25,CY,Cyprus,,CYP,,CYP
+CZ,R25,CZ,Czechoslovakia,,CSK,,
+DA,R25,DA,Denmark,,DNK,198712,
+D1,R25,DA,Denmark,,DNK,,DNK
+FO,R25,DA,Faroe Islands,,FRO,,FRO
+DJ,R55,DJ,Djibouti,,DJI,,DJI
+DR,R10,DR,Dominican Republic,,DOM,,DOM
+EC,R20,EC,Ecuador,,ECU,,ECU
+EG,R50,EG,Egypt,,EGY,,EGY
+EI,R25,EI,Ireland,,IRL,,IRL
+EK,R55,EK,Equatorial Guinea,,GNQ,,GNQ
+EN,R25,EN,Estonia,,EST,,EST
+ER,R55,ER,Eritrea,,ERI,,ERI
+ES,R15,ES,El Salvador,,SLV,,SLV
+ET,R55,ET,Ethiopia,,ETH,199306,
+E1,R55,ET,Ethiopia,,ETH,,ETH
+EZ,R25,EZ,Czech Republic,,CZE,,CZE
+FG,R20,FG,French Guiana,,GUF,,GUF
+FI,R25,FI,Finland,,FIN,,FIN
+FK,R20,FK,Falkland Islands (Islas Malvinas),,FLK,,FLK
+FM,R70,FM,Micronesia,,FSM,,FSM
+FR,R25,FR,France,,FRA,198712,
+F1,R25,FR,France,,FRA,,FRA
+AN,R25,FR,Andorra,,AND,,AND
+MN,R25,FR,Monaco,,MCO,,MCO
+GA,R55,GA,"Gambia, The",,GMB,,GMB
+GB,R55,GB,Gabon,,GAB,,GAB
+GG,R35,GG,Georgia,,GEO,,GEO
+GH,R55,GH,Ghana,,GHA,,GHA
+GI,R30,GI,Gibraltar,,GIB,,GIB
+GL,R05,GL,Greenland,,GRL,,GRL
+GM,R25,GM,Germany,,DEU,,DEU
+GC,R25,GM,"Germany, Democratic Republic",,DDR,199009,
+GE,R25,GM,"Germany, Federal Republic (Former)",,DEU,199009,
+GQ,R70,GQ,Guam,,GUM,,GUM
+GR,R25,GR,Greece,,GRC,,GRC
+GT,R15,GT,Guatemala,,GTM,,GTM
+GV,R55,GV,Guinea,,GIN,,GIN
+GY,R20,GY,Guyana,,GUY,,GUY
+GZ,R45,GZ,Gaza Strip,,PSE,,XGZ
+HA,R10,HA,Haiti,,HTI,,HTI
+HK,R40,HK,Hong Kong,,HKG,,HKG
+HO,R15,HO,Honduras,,HND,,HND
+HR,R25,HR,Croatia,,HRV,,HRV
+HU,R25,HU,Hungary,,HUN,,HUN
+IC,R30,IC,Iceland,,ISL,,ISL
+ID,R65,ID,Indonesia,,IDN,,IDN
+IN,R60,IN,India,,IND,,IND
+IO,R55,IO,British Indian Ocean Territory,,IOT,,IOT
+IR,R45,IR,Iran,,IRN,,IRN
+IS,R45,IS,Israel,,ISR,198908,
+G1,R45,IS,Gaza Strip,,PSE,,
+I2,R45,IS,Israel,,ISR,,ISR
+WE,R45,IS,West Bank,,PSE,,XWB
+VT,R25,IT,Vatican City (Holy See),,VAT,,VAT
+SM,R25,IT,San Marino,,SMR,,SMR
+I1,R25,IT,Italy,,ITA,,ITA
+IT,R25,IT,Italy,,ITA,198712,
+IV,R55,IV,Cote d'Ivoire,,CIV,,CIV
+IY,R45,IY,Iraq-Saudi Arabia Neutral Zone,,NTZ,,
+IZ,R45,IZ,Iraq,,IRQ,,IRQ
+JA,R40,JA,Japan,,JPN,,JPN
+JM,R10,JM,Jamaica,,JAM,,JAM
+JO,R45,JO,Jordan,,JOR,,JOR
+KE,R55,KE,Kenya,,KEN,,KEN
+KG,R35,KG,Kyrgyzstan,,KGZ,,KGZ
+KN,R40,KN,"Korea, North",,PRK,,PRK
+KS,R40,KS,"Korea, South",,KOR,,KOR
+KU,R45,KU,Kuwait,,KWT,,KWT
+KV,R30,KV,Kosovo,,KOS,,XKS
+KZ,R35,KZ,Kazakhstan,,KAZ,,KAZ
+LA,R65,LA,Laos,,LAO,,LAO
+LE,R45,LE,Lebanon,,LBN,,LBN
+LG,R25,LG,Latvia,,LVA,,LVA
+LH,R25,LH,Lithuania,,LTU,,LTU
+LI,R55,LI,Liberia,,LBR,,LBR
+LO,R25,LO,Slovakia,,SVK,,SVK
+LT,R55,LT,Lesotho,,LSO,,LSO
+LY,R50,LY,Libya,,LBY,,LBY
+MA,R55,MA,Madagascar,,MDG,,MDG
+MC,R40,MC,Macau,,MAC,,MAC
+MD,R35,MD,Moldova,,MDA,,MDA
+MF,R55,MF,Mayotte,,MYT,,MYT
+MG,R40,MG,Mongolia,,MNG,,MNG
+MI,R55,MI,Malawi,,MWI,,MWI
+MJ,R30,MJ,Montenegro,,MNE,,MNE
+MK,R30,MK,North Macedonia,,MKD,,MKD
+ML,R55,ML,Mali,,MLI,,MLI
+MO,R50,MO,Morocco,,MAR,,MAR
+MP,R55,MP,Mauritius,,MUS,,MUS
+MQ,R70,MQ,Midway Islands,,   ,,XMW
+MR,R55,MR,Mauritania,,MRT,,MRT
+MT,R25,MT,Malta,,MLT,,MLT
+MU,R45,MU,Oman,,OMN,,OMN
+MX,R05,MX,Mexico,,MEX,,MEX
+MY,R65,MY,Malaysia,,MYS,,MYS
+MZ,R55,MZ,Mozambique,,MOZ,,MOZ
+NG,R55,NG,Niger,,NER,,NER
+NI,R55,NI,Nigeria,,NGA,,NGA
+NL,R25,NL,Netherlands,,NLD,,NLD
+NO,R30,NO,Norway,,NOR,198712,
+SV,R30,NO,Svalbard,,SJM,,XSV
+N3,R30,NO,Norway,,NOR,,NOR
+NP,R60,NP,Nepal,,NPL,,NPL
+NQ,R70,NQ,Trust Territory of the Pacific Islands,,X10,,
+NS,R20,NS,Suriname,,SUR,,SUR
+NT,R10,NT,Netherlands Antilles,,ANT,198712,
+N2,R10,NT,Netherlands Antilles (exc. Aruba),,ANT,,
+NN,R10,NT,Sint Maarten,,SXM,,SXM
+UC,R10,NT,Curacao,,CUW,,CUW
+AA,R10,NT,Aruba,,ABW,,ABW
+NU,R15,NU,Nicaragua,,NIC,,NIC
+NZ,R70,NZ,New Zealand,,NZL,198712,
+CW,R70,NZ,Cook Islands,,COK,,COK
+TL,R70,NZ,Tokelau,,TKL,,TKL
+NE,R70,NZ,Niue,,NIU,,NIU
+N1,R70,NZ,New Zealand,,NZL,,NZL
+P1,R70,P1,Pacific Islands (excl. Mariana Islands),,X11,,
+PA,R20,PA,Paraguay,,PRY,,PRY
+PE,R20,PE,Peru,,PER,,PER
+PK,R60,PK,Pakistan,,PAK,,PAK
+PL,R25,PL,Poland,,POL,,POL
+PM,R15,PM,Panama,,PAN,,PAN
+PO,R25,PO,Portugal,,PRT,,PRT
+PP,R70,PP,Papua New Guinea,,PNG,,PNG
+PQ,R15,PQ,Panama Canal Zone,,PCZ,,
+PS,R70,PS,Palau,,PLW,,PLW
+QA,R45,QA,Qatar,,QAT,,QAT
+R1,R30,R1,Serbia,,SRB,,SRB
+RB,R30,RB,Serbia and Kosovo,,SRB,200812,
+RM,R70,RM,Marshall Islands,,MHL,,MHL
+RO,R25,RO,Romania,,ROM,,ROU
+RP,R65,RP,Philippines,,PHL,,PHL
+RQ,R10,RQ,Puerto Rico,,PRI,,PRI
+RS,R35,RS,Russia,,RUS,,RUS
+RW,R55,RW,Rwanda,,RWA,,RWA
+S1,R99,S1,British Antarctic Territories,,ATB,,
+SA,R45,SA,Saudi Arabia,,SAU,,SAU
+SB,R05,SB,Saint Pierre and Miquelon,,SPM,,SPM
+SE,R55,SE,Seychelles,,SYC,,SYC
+SF,R55,SF,South Africa,,ZAF,,ZAF
+SG,R55,SG,Senegal,,SEN,,SEN
+SH,R55,SH,Saint Helena,,SHN,,SHN
+SI,R25,SI,Slovenia,,SVN,,SVN
+SL,R55,SL,Sierra Leone,,SLE,,SLE
+SN,R65,SN,Singapore,,SGP,,SGP
+SO,R55,SO,Somalia,,SOM,,SOM
+SP,R25,SP,Spain,,ESP,,ESP
+SU,R55,SU,Sudan,,SDN,201109,
+OD,R55,SU,South Sudan,,SSD,,SSD
+S2,R55,SU,Sudan,,SDN,,SDN
+SW,R25,SW,Sweden,,SWE,,SWE
+SX,R99,SX,South Georgia and Sandwich Islands,,SGS,,
+SY,R45,SY,Syria,,SYR,,SYR
+SZ,R30,SZ,Switzerland,,CHE,198712,
+SR,R30,SZ,Switzerland,,CHE,,CHE
+LS,R30,SZ,Liechtenstein,,LIE,,LIE
+TD,R10,TD,Trinidad and Tobago,,TTO,,TTO
+TH,R65,TH,Thailand,,THA,,THA
+TI,R35,TI,Tajikistan,,TJK,,TJK
+TK,R10,TK,Turks and Caicos Islands,,TCA,,TCA
+TO,R55,TO,Togo,,TGO,,TGO
+TS,R50,TS,Tunisia,,TUN,,TUN
+TT,R65,TT,Timor-Leste,,TLS,,TLS
+TU,R45,TU,Turkey,,TUR,,TUR
+TW,R40,TW,Taiwan,,TWN,,TWN
+TX,R35,TX,Turkmenistan,,TKM,,TKM
+TZ,R55,TZ,Tanzania,,TZA,,TZA
+U0,R70,U0,United States Outlying Islands,,UMI,,
+UG,R55,UG,Uganda,,UGA,,UGA
+UK,R30,UK,United Kingdom,,GBR,,GBR
+UP,R35,UP,Ukraine,,UKR,,UKR
+UR,R35,UR,Union of Soviet Socialist Republics,,SUN,,
+US,R05,US,United States,,USA,,USA
+UV,R55,UV,Burkina Faso,,BFA,,BFA
+UY,R20,UY,Uruguay,,URY,,URY
+UZ,R35,UZ,"Uzbekistan, Republic of",,UZB,,UZB
+V1,R65,V1,"Vietnam, Peoples Republic of",,VNM,,
+V2,R65,V2,"Vietnam, Republic of (South)",,VDR,,
+V4,R55,V4,Burundi-Rwanda,,BDI,,
+V5,R55,V5,Seychelles and Dependents,,X17,,
+V6,R55,V6,Mauritius and Dependents,,MUS,,
+V7,R55,V7,"South Africa, NEC",,X19,,
+V8,R99,V8,Unidentified Countries,,X20,,
+VE,R20,VE,Venezuela,,VEN,,VEN
+VM,R65,VM,Vietnam,,VNM,,VNM
+VO,R10,VO,"Virgin Islands, U.S.",,VIR,,VIR
+W2,R45,W2,"Arabian Peninsula States, NEC",,X05,,
+W5,R65,W5,"South Southeast Asia, NEC",,X06,,
+W6,R70,W6,New Zealand--Western Samoa,,NZL,,
+W7,R70,W7,British West Pacific Islands,,IOT,,
+WA,R55,WA,Namibia,,NAM,,NAM
+WI,R55,WI,Western Sahara,,ESH,,ESH
+WQ,R70,WQ,Wake Island,,   ,,XWK
+WS,R70,WS,Samoa,,WSM,,WSM
+WZ,R55,WZ,Eswatini,,SWZ,,SWZ
+X4,R55,X4,"Africa, not elsewhere specified",,X01,198712,
+CV,R55,X4,Cabo Verde,,CPV,,CPV
+TP,R55,X4,Sao Tome and Principe,,STP,,STP
+PU,R55,X4,Guinea-Bissau,,GNB,,GNB
+RE,R55,X6,Reunion,,REU,,REU
+FS,R55,X6,French South and Antarctic Lands,,ATF,,ATF
+X6,R55,X6,French Ind. Ocean Territory,,X18,198712,
+X8,R60,X8,Southern Asia NEC,,X07,198712,
+BT,R60,X8,Bhutan,,BTN,,BTN
+MV,R60,X8,Maldives,,MDV,,MDV
+Z8,R60,X8,Portuguese Timor,,TLS,,
+X9,R10,X9,Jamaica < 1976,,JAM,,
+Y1,R10,Y1,Leeward-Windward Islands,,X03,198801,
+VC,R10,Y1,Saint Vincent and the Grenadines,,VCT,,VCT
+VI,R10,Y1,British Virgin Islands,,VGB,,VGB
+ST,R10,Y1,Saint Lucia,,LCA,,LCA
+MH,R10,Y1,Montserrat,,MSR,,MSR
+A1,R10,Y1,St. Kitts and Nevis,,KNA,,
+AC,R10,Y1,Antigua and Barbuda,,ATG,,ATG
+AV,R10,Y1,Anguilla,,AIA,,AIA
+DO,R10,Y1,Dominica,,DMA,,DMA
+GJ,R10,Y1,Grenada,,GRD,,GRD
+GP,R10,Y2,Guadeloupe,,GLP,,GLP
+MB,R10,Y2,Martinique,,MTQ,,MTQ
+Y2,R10,Y2,French West Indies,,PYF,198712,
+Y3,R30,Y3,Azores,,X04,,
+Y7,R55,Y7,Canary Islands,,X13,,
+Y9,R55,Y9,Madeira Islands,,X16,,
+YM,R45,YM,Yemen,,YEM,,YEM
+YE,R45,YM,Yemen (Sanaa),,YEM,199009,
+YS,R45,YM,Yemen (Aden),,YMD,199091,
+YO,R30,YO,Yugoslavia,,YUG,,
+YU,R30,YU,"Serbia, Montenegro, and Kosovo",,YUG,,
+Z1,R70,Z1,French Pacific Islands,,PYF,198712,
+WF,R70,Z1,Wallis and Futuna,,WLF,,WLF
+NC,R70,Z1,New Caledonia,,NCL,,NCL
+FP,R70,Z1,French Polynesia,,PYF,,PYF
+Z2,R55,Z2,"Spanish Africa, NEC",,X14,,
+Z5,R40,Z5,Ryukyu Is - Nansei Is,,X08,,
+Z6,R70,Z6,British Pacific Islands,,PCI,198712,
+BP,R70,Z6,Solomon Islands,,SLB,,SLB
+KR,R70,Z6,Kiribati,,KIR,,KIR
+GN,R70,Z6,Gilbert and Ellice Islands,,X09,,
+PC,R70,Z6,Pitcairn Islands,,PCN,,PCN
+NH,R70,Z6,Vanuatu/New Hebrides,,VUT,,VUT
+TV,R70,Z6,Tuvalu,,TUV,,TUV
+TN,R70,Z7,Tonga,,TON,,TON
+NR,R70,Z7,Nauru,,NRU,,NRU
+FJ,R70,Z7,Fiji,,FJI,,FJI
+Z7,R70,Z7,"Other Pacific Islands, NEC",,X12,198712,
+ZA,R55,ZA,Zambia,,ZMB,,ZMB
+ZB,R55,ZB,Spanish Africa & Eq. Guinea,,X15,,
+ZI,R55,ZI,Zimbabwe,,ZWE,,ZWE
