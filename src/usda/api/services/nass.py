@@ -1,35 +1,46 @@
-from typing import Union, NamedTuple
+from typing import Union, NamedTuple, Any
 from dataclasses import dataclass
 from pathlib import Path
+
+import matplotlib.pyplot as plt
+import pandas as pd
 
 from ._base import ServiceBase
 
 
 @dataclass
 class NASSService(ServiceBase):
-    """"""
-    
+    """
+    National Agricultural Statistics Service (NASS)
+    """
+
     url: str = "http://quickstats.nass.usda.gov/api"
-    
+
     class EndpointAPI(NamedTuple):
-        GET_API = '/api_GET/'
-        GET_PARAM_VALUE = '/get_param_values/'
-        GET_COUNTS = '/get_counts/'
-    
-    def get(self, endpoint: EndpointAPI, params: dict = None) -> str:
+        GET_API = "/api_GET/"
+
+    def get(self, endpoint: Union[EndpointAPI, str] = EndpointAPI.GET_API, params: dict = None) -> str:
         payload = dict(key=self.api_key, format="JSON")
-        if params: payload.update(params)
+        if params:
+            payload.update(params)
         req = super().get(endpoint, payload)
-        if isinstance(req, int): 
+        if isinstance(req, int):
             return req
         self.data = req.json()["data"]
         return req.status_code
-    
-    def to_file(self, path: Union[Path, str]) -> Path:
+
+    def to_file(self, path: Union[Path, str], df: pd.DataFrame) -> Path:
         path = self._path_prepare(path) / f"{__class__.__name__}.csv"
-        super().to_file(path)
+        super().to_file(path, df)
         return path
 
-    def get_data(self) -> dict:
-        return self.data
+    def _prepare_data(self, df: Any, *args, **kwargs) -> Any:
+        df["Value"] = pd.to_numeric(df["Value"], errors="coerce")
+        dfgroup = df.groupby(["state_name", "year"])["Value"].sum()
+        return dfgroup
 
+    def plot(self, df: Any, x: str, y: str, type="bar") -> None:
+        df = self._prepare_data(df)
+        df.plot(kind=type, x=x, y=y)
+        plt.title("National Agricultural Statistics Service")
+        plt.show()
