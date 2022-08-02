@@ -5,6 +5,7 @@ from pathlib import Path
 import pandas as pd
 
 from ._base import ServiceBase
+from src.usda.api.utils.prepare_path import path_prepare
 
 
 @dataclass
@@ -27,7 +28,7 @@ class FASService(ServiceBase):
         return req.status_code
 
     def to_file(self, path: Union[Path, str], df: pd.DataFrame) -> Path:
-        path = self._path_prepare(path) / f"{__class__.__name__}.csv"
+        path = path_prepare(path) / f"{__class__.__name__}.csv"
         super().to_file(path, df)
         return path
 

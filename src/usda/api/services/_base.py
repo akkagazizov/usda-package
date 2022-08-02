@@ -42,6 +42,3 @@ class ServiceBase(ABC):
 
     def get_dataframe(self) -> pd.DataFrame:
         return pd.DataFrame(self.data)
-
-    def _path_prepare(self, path: Union[Path, str]) -> Path:
-        return Path(path) if isinstance(path, str) else path
