@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "usda"
-version = "0.0.3"
+version = "0.0.4"
 authors = [
   { name="Eldar Gazizov", email="kursus1010@gmail.com" },
 ]
@@ -20,7 +20,8 @@ classifiers = [
 dependencies = [
     "pandas==1.4.3",
     "requests==2.28.1",
-    "matplotlib==3.5.2"
+    "matplotlib==3.5.2",
+    "openpyxl==3.0.10"
 ]
 
 [project.urls]
