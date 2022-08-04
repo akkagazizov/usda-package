@@ -22,7 +22,7 @@ class ServiceBase(ABC):
 
     @abstractmethod
     def get(self, endpoint: Union[EndpointAPI, str], params: dict = None) -> Union[Response, str]:
-        req = requests.get(self.url + endpoint, params=params, auth=self.auth, headers=self.headers)
+        req = requests.get(self.url + endpoint, params=params, auth=self.auth, headers=self.headers, timeout=60)
         if req.status_code == 200:
             return req
         return req.status_code
